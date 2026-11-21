@@ -38,9 +38,8 @@ jobs:
           name: WexxyyTweaker-windows
           path: dist\WexxyyTweaker.exe
 
-      - name: Create Release on tag
-        if: startsWith(github.ref, 'refs/tags/')
-        uses: softprop
+      - name: Create Releas
           files: dist\WexxyyTweaker.exe
+
 
           
