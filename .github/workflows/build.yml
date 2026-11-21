@@ -38,8 +38,8 @@ jobs:
           name: WexxyyTweaker-windows
           path: dist\WexxyyTweaker.exe
 
-      - name: Create Releas
-          files: dist\WexxyyTweaker.exe
+      
+
 
 
           
